@@ -1,1 +1,27 @@
 
+$done-color: grey;
+
+.done {
+  color: $done-color;
+  text-decoration: line-through;
+}
+
+.todo-calendar {
+  ion-icon {
+    font-size: 2em;
+    color: darken($done-color, 8%);
+  }
+}
+
+.todo-note {
+  font-size: 0.9em;
+  span {
+    font-size: 0.8em;
+  }
+}
+
+.todo-nb {
+  font-size: 2em;
+  font-weight: bold;
+  margin-right: 1rem;
+}
